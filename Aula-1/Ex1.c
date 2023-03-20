@@ -8,7 +8,7 @@ int Ex1(void) {
   printf("Digite um valor inteiro\n");
   scanf("%d", &num2);
 
-  mult = num1 * num2;
+  mult = num1 * num2;  
 
   printf("resultado é: %d\n", mult);
 

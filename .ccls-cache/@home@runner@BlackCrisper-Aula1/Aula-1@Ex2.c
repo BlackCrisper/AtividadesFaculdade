@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int Ex2(void) {
-  int vP, vC, troco; // vP = valor pago, vC = valor compra
+  float vP, vC, troco; // vP = valor pago, vC = valor compra
 
   printf("Digite o valor da compra\n");
-  scanf("%d", &vC);
+  scanf("%f", &vC);
   printf("Digite o valor pago\n");
-  scanf("%d", &vP);
+  scanf("%f", &vP);
 
   troco = vP - vC;
 
-  printf("resultado é: %d\n", troco);
+  printf("resultado é: %f\n", troco);
 
   return 0;
 }
