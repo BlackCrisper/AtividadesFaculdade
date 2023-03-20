@@ -7,7 +7,7 @@ Passo 3: Mostre o resultado do calculo.
 #include <stdio.h>
 
 int Ex4(void) {
-  float a, b, c;
+  float a, b, c, x, delta, x1, x2;
 
   return 0;
 }
