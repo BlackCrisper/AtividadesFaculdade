@@ -1,9 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int Ex01()
-{
+int Ex01(void) {
+  int base, altura, area;
 
-  printf("BlackCrisper Sistemas\n");
+  printf("Digite o valor da Base\n");
+  scanf("%d", &base);
+  printf("Digite o valor da altura\n");
+  scanf("%d", &altura);
+
+  area = base * altura;
+
+  printf("resultado é: %d\n", area);
 
   return 0;
 }

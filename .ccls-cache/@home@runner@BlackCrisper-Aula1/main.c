@@ -1,10 +1,12 @@
 #include<stdio.h>
 
-int main()
+int main(void)
 {
-
   printf("BlackCrisper Sistemas\n");
 
+  
   return 0;
 }
+
+
 
