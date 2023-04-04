@@ -4,7 +4,7 @@ int Ex10(void) {
 
   float c, f;
 
-  // c = celcius, f = 
+  // c = celcius, f = fahrenheit
 
   printf("Digite a temperatura em Celcius: \n");
   scanf("%f", &c);
