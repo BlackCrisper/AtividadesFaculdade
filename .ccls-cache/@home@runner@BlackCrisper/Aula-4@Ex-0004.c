@@ -10,16 +10,23 @@ int Ex0004(void) {
   if (preco <= 50) {
     novopreco = preco * 0.05;
   } else if (preco >= 50 && preco <= 100) {
-    novopreco = preco * 0.1;
+    novopreco = preco * 0.10;
   } else {
     novopreco = preco * 0.15;
   }
 
+  novopreco += preco;
+  
   if (novopreco <= 80){
-    printf("Barato");
+    printf("Barato \n");
   } else if ( novopreco >= 80 && novopreco <=120 ) {
-    printf("Normal");
-  } else if ( novopreco >= 80 && novopreco <=120 )
+    printf("Normal \n");
+  } else if ( novopreco >= 120 && novopreco <=200 ) {
+    printf("Caro \n");
+  } else {
+    printf("Muito Caro \n");
+  }
 
+  printf("%f \n",novopreco);
   return 0;
 }

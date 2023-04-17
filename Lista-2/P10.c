@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main(void) {
-  
-int codigo;
+int P10(void) {
+
+  int codigo;
 
   printf("Digite o codigo do produto: ");
   scanf("%d", &codigo);
@@ -48,6 +48,6 @@ int codigo;
     printf("Opção inválida");
     break;
   }
-  
+
   return 0;
 }
