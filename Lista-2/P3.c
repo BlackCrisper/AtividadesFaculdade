@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
-  
+int P3(void) {
   
   return 0;
 }
